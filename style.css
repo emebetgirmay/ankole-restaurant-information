@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.slideshow-container {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.slide {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    animation: fade 15s infinite;
+}
+.welcome-image {
+    background-image: url(images/65cb61d8c46dc657819e1cc2_ankolegrill_slider.jpg);
+    animation-delay: 0s;
+}
+.discover-image {
+    background-image: url(images/65e5b8b549a7aac5dba0e7d3_ankole_kilimani_nightlife.jpg);
+    animation-delay: 3s;
+}
+.taste-image {
+    background-image: url(images/65c3b0c67153d0056443f31e_ankolegrill_escobar1.jpg);
+    animation-delay: 6s;
+}
+.savour-image {
+    background-image: url(images/65c5f9644676e29dddf08c65_ankolegrill_t-bone-steak-2024-1.jpg);
+    animation-delay: 9s;
+}
+.experiance-image {
+    background-image: url(images/65c34fee7c31fcb2f8c3700b_001-p-2000.jpg);
+    animation-delay: 12s;
+}
+@keyframes fade {
+    0%, 100% { opacity: 0; }
+    20%, 40% { opacity: 1; }
+    60%, 100% { opacity: 0; }
+}
+.text {
+    position: absolute;
+    font-size: 10vh;
+    bottom: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: gray;
+    text-align: center;
+}
+.logo img {
+    width: 26vh;
+    position: absolute;
+    cursor: pointer;
+    top: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dropupbtn {
+    color: white;
+    position: absolute;
+    top: 11vh;
+    left: 110vh;
+    font-size: 3vh;
+    cursor: pointer;
+}
+.drop-up {
+    position: relative;
+    display: inline-block;
+}
+.dropup-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    z-index: 1;
+    bottom: -6vh;
+    left: 50vh;
+}
+.dropup-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+}
+.dropup-content a:hover {
+    background-color: gray;
+}
+.drop-up:hover .dropup-content {
+    display: block;
+}
+.drop-up:hover .dropupbtn {
+    transform: scale(1.1);
+}
+#time-icon {
+    width: 3vh;
+    /* height: 4vh; */
+    color: white;
+    /* margin-top: 70vh; */
+    margin-left:120vh;
+    font-size: 3vh;
+    position: static;
+    cursor: pointer;
+   transition: transform 0.3s ease;
+}
+.history-btn {
+    transform: scale(1.1);
+    position: relative;
+    display: inline-block;
+}
+.history-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+
+    z-index: 100;
+    top: 6vh;
+    right: 0;
+    color: white;
+    padding: 2vh;
+}
+.history-btn:hover #time-icon {
+    transform: scale(1.1);
+}
+.history-btn:hover .history-content {
+    display: block;
+}
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+   right: 50vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 5vh;
+    z-index: 100;
+}
+.navigation {
+    display: flex;
+    gap: 4vh;
+    background-color: black;
+    border-radius: 5vh;
+    padding:2vh 4vh;
+    margin-top: 30vh;
+    font-size: 1.9vh;
+    
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+.navigation a:hover {
+    color: gray;
+}
+#reservation {
+    background-color: gray;
+    border-radius: 5vh;
+    padding: 2vh;
+}
+.icon-watsapp {
+    position: absolute;
+    top: 2vh;
+    right: 4vh;
+    font-size: 5vh;
+    background-color: black;
+    border-radius: 10vh;
+    width: 5.3vh;
+    height: 5.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-watsapp a {
+    color: white;
+    text-decoration: none;
+}
+.icon-watsapp:hover {
+    transform: scale(1.1);
+}

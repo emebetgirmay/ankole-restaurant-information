@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    font-family:Arial, sans-serif;
+    overflow: hidden;
+}
+.reservation-container{
+    display: flex;
+}
+.background-image{
+    background-image: url(images/images.jpeg);
+    width: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:brightness(0.8);
+   
+}
+.logo{
+    margin-top: 10vh;
+    margin-left: -160vh;
+    position: relative;
+}
+.logo img{
+    width: 20vh;
+}
+.text{
+margin-top: 40vh;
+margin-left: -20vh;
+position: relative;
+h1{
+    color: white;
+}
+p{
+    color: rgb(146, 12, 12);
+    font-size: 5vh;
+    margin-left: -10vh;
+}
+}
+.form-container{
+    background-color: rgb(35, 34, 34);
+    font-family: sans-serif;
+
+    color: white;
+  
+    input{
+        padding: 2vh;
+        width: 83vh;
+        background-color:rgb(35, 34, 34);
+        color: white;
+        color-scheme: dark;
+        border: solid 1px #f8f8f861;
+        
+    }
+    input:focus{
+
+    }
+    label{
+        font-size: 2vh;
+        display: block;
+        margin: 10px 0 0;
+        height: 1vh;
+    }
+    select{
+        padding:2vh ;
+        background-color: rgb(35, 34, 34);
+        width: 87vh;
+        box-sizing: border-box;
+        color: gray;
+    }
+  
+}
+button{
+    background-color: rgb(183, 141, 63);
+width: 87.5vh;
+color: white;
+cursor: pointer;
+padding: 3vh;
+}
+.form{
+   
+    margin:1vh;
+    box-shadow: 7px 2px 6px 10px #18181880;
+    padding: 1vh;
+}
+.time-icon{
+margin-top: -6vh;
+margin-left:84vh ;
+position: absolute;
+color: gray;
+
+   }
+   
+
+
+
+.navigation{
+    background-color:black;
+    border-radius: 5vh;
+    padding: 3.9vh;
+    width: 93vh;
+    font-size: 1.9vh;
+    position: absolute;
+    margin-top: 88vh;
+ margin-left: 45vh;
+    
+    }
+    .navigation :hover{
+        color: gray;
+    }
+    .navigation a{
+        margin-left: 5vh;
+        text-decoration: none;
+        color: white;
+    }
+    #reservation{
+        background-color: gray;
+        border-radius: 5vh;
+        padding: 2vh;
+    }
+    .icon-watsapp{
+        margin-left: 176vh;
+        font-size: 5vh;
+        margin-top: 88vh;
+        position: absolute;
+    /* border: 1px solid white; */
+        background-color: black;
+        border-radius:10vh;
+        width: 5vh;
+        padding:1vh;
+        padding-left: 1.8vh;
+        a{
+            color: white;
+        }
+
+    }
+    .icon-watsapp:hover{
+        transform: scale(1.1);
+    }

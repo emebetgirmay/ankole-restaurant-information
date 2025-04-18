@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+   
+    
+}
+.background-image-flex{
+    display: flex;
+    position: relative;
+   
+    /* filter: brightness(0.7); */
+  
+}
+.accra-event{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/65d4a8fe2b90d2cc28fd4a80_accra.jpg);
+    background-repeat: no-repeat;
+    
+    width: 100vh;
+    height: 100vh;
+    background-size: cover;
+    /* position: relative; */
+}
+.text-on-event{
+    text-align: center;
+    margin-top: 35vh;
+    
+    h1{
+        color: white;
+        font-size: 5vh;
+    }
+    h5{
+        color:rgb(219, 219, 120);
+        font-size: 1.7vh;
+    }
+    p{
+        color: white;
+        font-size: 1.7vh;
+      
+    }
+    a{
+        text-decoration: none;
+        font-family:sans-serif;
+        font-size: inherit;
+    }
+}
+
+.pavillion{
+    color: gray;
+}
+.nairobi-event{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/65d4a8fec49b23e3d4d28b75_decor-p-500.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vh;
+    /* position: relative; */
+    /* height: 100vh; */
+}
+.logo img{
+    width: 20vh;
+/* margin-top: -100vh; */
+}
+.logo{
+    position: absolute;
+    margin-top: -90vh;
+    margin-left: 85vh;
+}
+.navigation{
+    background-color:black;
+    border-radius: 5vh;
+    padding: 3.9vh;
+    width: 93vh;
+    font-size: 1.9vh;
+    position: absolute;
+    margin-top: -17vh;
+ margin-left: 40vh;
+    
+    }
+    .navigation :hover{
+        color: gray;
+    }
+    .navigation a{
+        margin-left: 5vh;
+        text-decoration: none;
+        color: white;
+    }
+    #reservation{
+        background-color: gray;
+        border-radius: 5vh;
+        padding: 2vh;
+    }
+    .icon-watsapp{
+        margin-left: 176vh;
+        font-size: 5vh;
+        margin-top: -15vh;
+        position: absolute;
+        color: white;
+        background-color: black;
+        border-radius:10vh;
+        width: 5vh;
+        padding:1vh;
+        padding-left: 1.8vh;
+        a{
+            color: white;
+        }
+
+    }
+    .icon-watsapp:hover{
+        transform: scale(1.1);
+    }
+    .addis-event{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65d4a8fe5863a791395eba11_Addis.jpg);
+        width: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }

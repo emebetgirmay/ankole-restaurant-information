@@ -1,0 +1,146 @@
+body{
+    font-size: 1rem;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+.live-container{
+    background-image:url(65c3dbca6243c016481156cc_young-adults-playing-percussion-instruments-music-festival-generated-by-ai.jpg) ;
+    filter: brightness(0.5);
+    /* background-size: cover; */
+    /* width: 30vh; */
+    height: 100vh;
+
+  
+    
+    
+ 
+  
+  
+    
+}
+
+.live-types{
+    margin-left: 116vh;
+    position: absolute;
+    margin-top: -100vh;
+    overflow: scroll;
+    height: 100vh;
+
+
+    img{
+        width: 35vh;
+        border-radius: 2vh;
+        
+    margin-top: 10vh;
+   
+    }
+    img:hover{
+        transform: scale(1.01) ;
+    }
+   a{
+    text-decoration: none;
+   }
+   
+}
+.fidhilee:hover{
+ 
+}
+
+.koseso{
+    display: flex;
+    gap: 3vh;
+   
+}
+.fadhilee{
+    display: flex;
+    gap: 3vh;
+}
+.event-discription{
+    margin-top: 15vh;
+p{
+    color: rgb(182, 13, 13);
+    font-size: 2vh;
+
+}
+h3{
+    color: white;
+}
+}
+.mushroom{
+    display: flex;
+    gap:3vh
+}
+.muguna{
+    display: flex;
+    gap:3vh
+}
+
+.logo img{
+width: 20vh;
+margin: 9vh 40vh;
+
+}
+.logo{
+    position: absolute;
+    margin-top: -100vh;
+}
+.live-text{
+   margin-left: 45vh;
+   position: absolute;
+   margin-top: -55vh;
+
+  
+   p{
+    color: white;
+    font-size: 2vh;
+   }
+}
+#live{
+    color: rgb(182, 13, 13);
+    font-size: 4vh;
+}
+.navigation{
+    background-color:black;
+    border-radius: 5vh;
+    padding: 3.9vh;
+    width: 93vh;
+    font-size: 1.9vh;
+    position: absolute;
+    margin-top: -19vh;
+ margin-left: 10vh;
+    
+    }
+    .navigation :hover{
+        color: gray;
+    }
+    .navigation a{
+        margin-left: 5vh;
+        text-decoration: none;
+        color: white;
+    }
+    #reservation{
+        background-color: gray;
+        border-radius: 5vh;
+        padding: 2vh;
+    }
+    .icon-watsapp{
+        margin-left: 176vh;
+        font-size: 5vh;
+        margin-top: -16vh;
+        position: fixed;
+        background-color: black;
+        border-radius:10vh;
+        width: 5.3vh;
+        padding:0.1em;
+        padding-left: 1.3vh;
+        margin-left: 176vh;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+    }
+    .icon-watsapp :hover{
+        transform: scale(1.1);
+    }

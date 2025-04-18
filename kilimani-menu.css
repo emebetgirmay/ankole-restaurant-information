@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+}
+.image{
+background-image:url(images/kitisuru-menu.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 105vh;
+height: 100vh;
+
+
+}
+
+
+
+.logo img{
+    width: 20vh;
+}
+.logo{
+    margin-left: 35vh;
+    margin-top: 5vh;
+  
+}
+.text{
+ margin:15vh 35vh;
+    color: white;
+}
+.text h2{
+    padding-left: 3vh;
+    font-size: 4vh;
+    font-weight: lighter;
+}
+.text h1{
+    color: rgb(160, 12, 12);
+    font-size: 6vh;
+    font-weight: lighter;
+
+}
+.navigation{
+background-color:black;
+border-radius: 5vh;
+padding: 3vh;
+width: 95vh;
+font-size: 1.9vh;
+position: absolute;
+margin-top: -10vh;
+
+}
+.navigation :hover{
+    color: gray;
+}
+.image-flex{
+display: flex;  
+width: 100%; 
+position: relative; 
+font-family: sans-serif;
+
+}
+.navigation a{
+    margin-left: 5vh;
+    text-decoration: none;
+    color: white;
+}
+#reservation{
+    background-color: gray;
+    border-radius: 5vh;
+    padding: 2vh;
+}
+.food-nav{
+   margin-top: 2vh;
+   margin-left: 130vh;
+   position: absolute;
+}
+.food-nav a:hover{
+    color: rgb(223, 223, 141);
+}
+.food-nav a{
+    text-decoration: none;
+     margin-left: 3vh;
+     color: rgb(250, 243, 243)
+}
+.food-catagory{
+    background-color: rgb(15, 14, 14);
+    width: 90vh;
+    height: 100vh;
+    overflow: auto;
+ 
+    p{
+        font-size: 1.5vh;
+    
+    }
+    h4{
+        font-weight: lighter;
+    }
+}
+.breakfast-list{
+    color: rgb(250, 243, 243);
+    margin: 5vh;
+}
+.flex-drinks{
+    color: rgb(186, 22, 22);
+    font-weight: bold;
+    font-size: 1.5vh;
+    display: flex;
+    margin-top: -1vh;
+   gap: 1vh;
+   margin-left: 5vh;
+
+}
+.breakfast-description{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(250, 243, 243);
+    margin: 0 5vh;
+}
+.food{
+    color: rgb(250, 243, 243);
+    margin: 0 5vh; 
+}
+.soup-price{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(250, 243, 243);
+    margin: 0 5vh;
+    margin-top: 5vh;
+}
+
+.salad-price{
+    display: flex;
+    margin: 0 4vh;
+    justify-content: space-between;
+    color: rgb(250, 243, 243);
+
+}
+.logo-with-food-menu{
+display: flex;
+gap: 4vh;
+
+}
+.logo-menu img{
+border-radius: 6vh;
+margin-top: 2vh;
+height: 10vh;
+width: 10vh;
+}
+.price-amount{
+margin-top: 6vh;
+}
+.fries-catagory{
+    color: rgb(186, 22, 22);
+    margin:0 5vh;
+}
+.fries-flexing{
+    display: flex;
+    color: rgb(250, 243, 243);
+    margin:0 5vh;
+    justify-content: space-between;
+}
+
+.drinks{
+    margin:0 5vh;
+    color: rgb(250, 243, 243);
+
+}
+.juices{
+    margin:0 5vh;
+    color: rgb(186, 22, 22);
+}
+.juice-flexing{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(250, 243, 243);
+    margin:0 5vh;
+}
+.icon-watsapp{
+    margin-left: 176vh;
+    font-size: 5vh;
+    margin-top: -16vh;
+    position: absolute;
+    color: white;
+    background-color: black;
+    border-radius:10vh;
+    width: 5vh;
+    padding:1vh;
+    padding-left: 1.8vh;
+
+}
+.icon-watsapp:hover{
+    transform: scale(1.1);
+}

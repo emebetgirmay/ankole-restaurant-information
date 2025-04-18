@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation file</title>
+    <link rel="stylesheet" href="reservation.css">
+    <script src="https://kit.fontawesome.com/aa5cf1e942.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="reservation-container">
+        <div class="background-image">
+        </div>
+        <div class="form-container">
+            <div class="form">
+ <form action="/submit" method="post">
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your first name" required><br>
+    <label for="location">Location</label><br>
+    <select id="location" name="location" required><br>
+        <option value="location1">Kitisuru (Open 9am . Closes 11 pm)</option>
+        <option value="location2">Kilimani (Hours: Open 7:30. Closes 11 pm)</option>
+    </select><br>
+    <label for="email">Email Adress</label><br>
+    <input type="email" id="email" name="email" placeholder="e.ginfo@email.com" required><br>
+    <label for="phone">Tel/Cell</label><br>
+    <input type="tel" id="phone" name="phone" pattern="[0-9{10}]" placeholder="e.g 0700000000" required><br>
+    <label for="guests">Number of Guests</label><br>
+    <input type="number" id="guests" name="guests" min="1" max="8" placeholder="(maximum of 8 guests only)" required><br>
+    <label for="date">Date</label><br>
+    <input type="date" id="date" name="date" required><br>
+    <label for="time">Time</label><br>
+
+    <input type="time" id="time" name="time" required><br><br>
+    <div class="time-icon">
+         <i class="fas fa-clock"></i>
+    </div>
+   <button type="submit" value="submit"> <a href="index.html"></a>Submit</a></button>
+ </form>
+ </div>
+        </div>
+        <div class="logo">
+            <a href="index.html"><img src="images/Locations_files/65c0b0524cdc940f7455af22_logo.svg"></a>
+        </div>
+        <div class="text">
+            <h1>Karibu</h1>
+            <p>Reservation</p>
+        </div>
+        <div class="navigation">
+        
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="review.html">Reviews</a>
+            <a href="events.html">Events</a>
+            <a href="live.html">Live</a>
+            <a href="contact.html">Contact</a>
+            <a href="reservation.html" id="reservation">Reservations</a>
+        
+        </div>
+        <div class="icon-watsapp">
+          <a href="https://api.whatsapp.com/send?phone=703212121&text=Welcome%20to%20Ankole%20Grill.%20How%20may%20we%20be%20of%20assistance"> <i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+    </div>
+</body>
+</html>

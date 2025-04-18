@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+
+overflow: auto;
+}
+.image img{
+    width:191vh ;
+    
+
+}
+.image{
+   
+    position: relative;
+    height: 100vh;
+    filter: brightness(0.5);
+    
+}
+
+
+.text{
+    margin:3vh;
+    color: white;
+    font-size: 6vh;
+    line-height: 2vh;
+    position: absolute;
+    margin-top: -60vh;
+    margin-left: 60vh;
+#fed{
+    margin-left: 15vh;
+}
+}
+.navigation{
+    background-color:black;
+  
+    border-radius: 5vh;
+    padding: 3.9vh;
+    width: 93vh;
+    font-size: 1.9vh;
+    position: absolute;
+    margin-top: -15vh;
+ margin-left: 50vh;
+    
+    }
+    .navigation :hover{
+        color: gray;
+    }
+    .navigation a{
+        margin-left: 5vh;
+        text-decoration: none;
+        color: white;
+    }
+    #reservation{
+        background-color: gray;
+        border-radius: 5vh;
+        padding: 2vh;
+    }
+    .menu-bar{
+        display: none;
+        z-index: 1;
+
+    }
+    .icon-watsapp{
+        margin-left: 176vh;
+        font-size: 5vh;
+        margin-top: -10vh;
+        position: fixed;
+        color: white;
+        background-color: black;
+        border-radius:10vh;
+        width: 5vh;
+        padding:1vh;
+        padding-left: 1.8vh;
+
+    }
+    .icon-watsapp:hover{
+        transform: scale(1.1);
+    }

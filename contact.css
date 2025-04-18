@@ -1,0 +1,93 @@
+body{
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navigation{
+    background-color:black;
+    border-radius: 5vh;
+    padding: 3vh;
+    width: 97vh;
+    font-size: 1.9vh;
+    position: absolute;
+    margin-top: 8vh;
+ margin-left: 50vh;
+    
+    }
+    .navigation :hover{
+        color: gray;
+    }
+    .navigation a{
+        margin-left: 5vh;
+        text-decoration: none;
+        color: white;
+
+    }
+    #reservation{
+        background-color: gray;
+        border-radius: 5vh;
+        padding: 2vh;
+    }
+    .icon-watsapp{
+        margin-left: 6vh;
+        font-size: 5vh;
+        margin-top: 2vh;
+        position: absolute;
+        color: white;
+        background-color: black;
+        border-radius:10vh;
+        width: 5.3vh;
+        padding:0.1em;
+        padding-left: 1.3vh;
+        /* margin-top: 10vh; */
+      
+        margin-left: 180vh;
+
+    }
+    .icon-watsapp:hover{
+        transform: scale(1.1);
+    }
+    .contact-background{
+        background-image: url(images/2021-11-16.jpg);
+        background-size: cover;
+        position: relative;
+        height: 100vh;
+        filter: brightness(0.5);
+
+    }
+    .contact-info{
+        display: flex;
+        margin-top:-70vh;
+        justify-content: center;
+        gap: 1vh;
+        position: relative;
+        color: white;
+        font-weight: bold;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+     
+    }
+    .kitisuru-contact{
+        border: solid 2px white;
+        padding: 5vh;
+     /* margin-top: 5vh; */
+        height: 28vh;
+    }
+    .kilimani-contact{
+        border: solid 2px white ;
+        padding: 5vh;
+        width: 40vh;
+        height: 40vh;
+    }
+    .logo{
+        margin-top: -73vh;
+        position: absolute;
+        margin-left: 85vh;
+        
+    }
+    .logo img{
+        width: 15vh;
+    }

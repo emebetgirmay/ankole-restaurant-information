@@ -1,0 +1,92 @@
+body {
+    overflow: hidden;
+    margin: 0;
+
+}
+
+.background-image {
+    display: flex;
+    position: relative;
+  
+
+}
+
+.left-image {
+    width: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Locations_files/65c34fee7c31fcb2f8c3700b_001-p-1600.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.right-image {
+    width: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Locations_files/65e5a29a2a2b1c4a493fff75_ankolegrill_Kilimani-Nights.jpg);
+    background-size: cover;
+}
+
+.text {
+    color: white;
+    margin: 40vh;
+    font-size: larger;
+}
+.text a{
+    color: white;
+    text-decoration: none;
+}
+
+.text h3 {
+    color: rgb(230, 32, 32);
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.text h1 {
+    cursor: pointer;
+}
+
+.logo {
+    margin-top: -95vh;
+    margin-left: 77vh;
+    position: absolute;
+}
+.navigation{
+    background-color:black;
+    border-radius: 5vh;
+    padding: 3.9vh;
+    width: 93vh;
+    font-size: 1.9vh;
+    position: absolute;
+    margin-top: -11vh;
+ margin-left: 35vh;
+    
+    }
+    .navigation :hover{
+        color: gray;
+    }
+    .navigation a{
+        margin-left: 5vh;
+        text-decoration: none;
+        color: white;
+    }
+    #reservation{
+        background-color: gray;
+        border-radius: 5vh;
+        padding: 2vh;
+    }
+    .icon-watsapp{
+        margin-left: 176vh;
+        font-size: 5vh;
+        margin-top: -12vh;
+        position: absolute;
+        color: white;
+        background-color: black;
+        border-radius:10vh;
+        width: 5vh;
+        padding:1vh;
+        padding-left: 1.8vh;
+
+    }
+    .icon-watsapp:hover{
+        transform: scale(1.1);
+    }

@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.review-container{
+background-color: black;
+height: 100vh;
+width: 100vw;
+position: fixed;
+
+}
+.review-container h1{
+    font-weight: lighter;
+    position: fixed;
+    margin-left: 80vh;
+
+    font-size: 5vh;
+    color: white;
+}
+.review-container img{
+    width: 20vh;
+    margin-top: 10vh;
+    margin-left: 80vh;
+    
+}
+
+.reviews{
+    text-align: center;
+    position: relative;
+    min-height: 150px;
+    margin-top: 20vh;
+  
+    
+
+}
+
+.review-text-active{
+    display: block;
+}
+#author{
+    margin-top: 4vh;
+}
+.reviews svg{
+    width: 5vh;
+    color: gray;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+.review-text{
+    display: none;
+    color:white;
+    margin-top: 15vh;
+}
+
+    .review-text p{
+        font-weight: bold;
+     
+        font-size: 1.7vh;
+        line-height: 2.9vh;
+      
+        margin-top:0;
+    }
+   
+   
+   
+       
+    
+    #prev{
+        left: 13%;
+        top: 10%;
+      
+    
+        }
+        #next{
+          right: 13%;
+          top: 10%;
+        }
+    #author{
+        margin-top: 4vh;
+    }
+    #left-qoute{
+    font-size: 4vh;
+    color: rgb(152, 16, 16);
+        position: absolute;
+        left: 20%;
+        top: -10vh;
+    }
+#right-qoute{
+        font-size: 4vh;
+        color: rgb(152, 16, 16);
+            position: absolute;
+            right: 20%;
+            bottom: -10vh;
+    }
+
+.navigation{
+    /* background-color:black; */
+  
+    /* border-radius: 5vh; */
+    padding: 3.9vh;
+    width: 93vh;
+    font-size: 1.9vh;
+    position: fixed;
+    margin-top: 13vh;
+ margin-left: 50vh;
+ 
+    
+    }
+    .navigation :hover{
+        color: gray;
+    }
+    .navigation a{
+        margin-left: 5vh;
+        text-decoration: none;
+        color: white;
+    }
+    #reservation{
+        background-color: gray;
+        border-radius: 5vh;
+        padding: 2vh;
+    }
+    /* .menu-bar{
+        display: none;
+        z-index: 1;
+
+    } */
+    .icon-watsapp{
+        margin-left: 176vh;
+        font-size: 5vh;
+        margin-top: 15vh;
+        position: fixed;
+        color: white;
+        background-color: black transparent;
+        border-radius:10vh ;
+        width: 5vh;
+        padding:1vh;
+        padding-left: 1.8vh;
+        i{
+            text-decoration: none;
+           color:white ;
+        }
+
+    }
+    .icon-watsapp:hover{
+        transform: scale(1.1);
+    }
