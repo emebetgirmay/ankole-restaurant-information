@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    overflow: hidden;
 }
 .review-container{
 background-color: black;
@@ -98,54 +99,129 @@ position: fixed;
             bottom: -10vh;
     }
 
-.navigation{
-    /* background-color:black; */
-  
-    /* border-radius: 5vh; */
-    padding: 3.9vh;
-    width: 93vh;
-    font-size: 1.9vh;
-    position: fixed;
-    margin-top: 13vh;
- margin-left: 50vh;
- 
-    
+    .dropupbtn {
+        font-size: 3vh;
+        color: white;
+        cursor: pointer;
+        color-scheme: dark;
     }
-    .navigation :hover{
+    .drop-up {
+        position: relative;
+        display: inline-block;
+    }
+    .dropup-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        padding: 5vh;
+      padding-left: 0;
+      width: 20vh;
+        border-radius: 1vh;
+        /* top: 5vh; */
+        margin-top: -49vh;
+    }
+    .dropup-content a {
+        color: black;
+        text-decoration: none;
+        border-bottom: 1px solid black;
+        padding: 1vh;
+        display: block;
+    }
+    .dropup-content a:hover {
+        background-color: gray;
+    }
+    .drop-up:hover .dropup-content {
+        display: block;
+    }
+    .drop-up:hover .dropupbtn {
+        transform: scale(1.1);
+    }
+    #time-icon {
+        width: 3vh;
+        height: 3vh;
+        color: white;
+        cursor: pointer;
+        color-scheme: dark;
+    }
+    .history-btn {
+        position: relative;
+        display: inline-block;
+    }
+    .history-content {
+        display:none;
+        position: absolute;
+        margin-top: -41vh;
+       min-width: 20vh;
+       z-index: 100;
+        background-color: white;
+        padding: 1vh;
+        border-radius: 1vh;
+        color:black;
+    }
+    
+    .history-btn:hover #time-icon {
+        transform: scale(1.1);
+    }
+    .history-btn:hover .history-content {
+        display: block;
+    }
+    nav{
+        position: absolute;
+        margin-top: 13vh;
+        margin-left: 50vh;
+    
+        width: 50%;
+        border-radius: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vh 4vh;
+        z-index: 100;
+        background-color: black;
+    }
+    .drop-up, .history-btn {
+        position: relative;
+        margin-right: 2vh;
+    }
+    .navigation {
+        display: flex;
+        gap: 4vh;
+    }
+    .navigation a {
+        color: white;
+        text-decoration: none;
+        font-size: 2vh;
+        padding-top: 1vh;
+    }
+    .navigation a:hover {
         color: gray;
     }
-    .navigation a{
-        margin-left: 5vh;
-        text-decoration: none;
-        color: white;
-    }
-    #reservation{
+    #reservation {
         background-color: gray;
         border-radius: 5vh;
-        padding: 2vh;
+        padding: 1vh 2vh;
     }
-    /* .menu-bar{
-        display: none;
-        z-index: 1;
-
-    } */
-    .icon-watsapp{
-        margin-left: 176vh;
-        font-size: 5vh;
+    #reservation:hover{
+        color: black;
+    }
+    .icon-watsapp {
+        position: absolute;
         margin-top: 15vh;
-        position: fixed;
-        color: white;
-        background-color: black transparent;
-        border-radius:10vh ;
-        width: 5vh;
-        padding:1vh;
-        padding-left: 1.8vh;
-        i{
-            text-decoration: none;
-           color:white ;
-        }
-
+        right: 4vh;
+        font-size: 5vh;
+        background-color: black;
+        padding: 1vh;
+        border-radius: 10vh;
+        width: 5.3vh;
+        height: 5.3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .icon-watsapp:hover{
+    .icon-watsapp a {
+        color: white;
+        text-decoration: none;
+    }
+    .icon-watsapp:hover {
         transform: scale(1.1);
     }

@@ -46,27 +46,35 @@ body {
 .text {
     position: absolute;
     font-size: 10vh;
-    bottom: 10vh;
+    top: 45%;
     left: 50%;
     transform: translateX(-50%);
     color: gray;
     text-align: center;
+    z-index: 10;
 }
-.logo img {
-    width: 26vh;
+
+
+
+
+
+
+
+.logo {
     position: absolute;
-    cursor: pointer;
-    top: 2vh;
+    top: 20vh;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 10;
+}
+.logo img {
+    width: 20vh;
 }
 .dropupbtn {
-    color: white;
-    position: absolute;
-    top: 11vh;
-    left: 110vh;
     font-size: 3vh;
+    color: white;
     cursor: pointer;
+    color-scheme: dark;
 }
 .drop-up {
     position: relative;
@@ -75,17 +83,20 @@ body {
 .dropup-content {
     display: none;
     position: absolute;
-    background-color: black;
-    min-width: 160px;
-    z-index: 1;
-    bottom: -6vh;
-    left: 50vh;
+    background-color: white;
+    padding: 5vh;
+  padding-left: 0;
+  width: 20vh;
+    border-radius: 1vh;
+    /* top: 5vh; */
+    margin-top: -49vh;
 }
 .dropup-content a {
-    color: white;
+    color: black;
     text-decoration: none;
+    border-bottom: 1px solid black;
+    padding: 1vh;
     display: block;
-    padding: 12px 16px;
 }
 .dropup-content a:hover {
     background-color: gray;
@@ -98,31 +109,27 @@ body {
 }
 #time-icon {
     width: 3vh;
-    /* height: 4vh; */
+    height: 3vh;
     color: white;
-    /* margin-top: 70vh; */
-    margin-left:120vh;
-    font-size: 3vh;
-    position: static;
     cursor: pointer;
-   transition: transform 0.3s ease;
+    color-scheme: dark;
 }
 .history-btn {
-    transform: scale(1.1);
     position: relative;
     display: inline-block;
 }
 .history-content {
-    display: none;
+    display:none;
     position: absolute;
-    background-color: black;
-
-    z-index: 100;
-    top: 6vh;
-    right: 0;
-    color: white;
-    padding: 2vh;
+    margin-top: -41vh;
+   min-width: 20vh;
+   z-index: 100;
+    background-color: white;
+    padding: 1vh;
+    border-radius: 1vh;
+    color:black;
 }
+
 .history-btn:hover #time-icon {
     transform: scale(1.1);
 }
@@ -131,29 +138,31 @@ body {
 }
 nav{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    margin-top: -12vh;
+    margin-left: 50vh;
+
+    width: 50%;
+    border-radius: 4vh;
     display: flex;
-   right: 50vh;
     justify-content: space-between;
     align-items: center;
-    padding: 2vh 5vh;
+    padding: 2vh 4vh;
     z-index: 100;
+    background-color: black;
+}
+.drop-up, .history-btn {
+    position: relative;
+    margin-right: 2vh;
 }
 .navigation {
     display: flex;
     gap: 4vh;
-    background-color: black;
-    border-radius: 5vh;
-    padding:2vh 4vh;
-    margin-top: 30vh;
-    font-size: 1.9vh;
-    
 }
 .navigation a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
+    font-size: 2vh;
+    padding-top: 1vh;
 }
 .navigation a:hover {
     color: gray;
@@ -161,14 +170,18 @@ nav{
 #reservation {
     background-color: gray;
     border-radius: 5vh;
-    padding: 2vh;
+    padding: 1vh 2vh;
+}
+#reservation:hover{
+    color: black;
 }
 .icon-watsapp {
     position: absolute;
-    top: 2vh;
+    margin-top: -12vh;
     right: 4vh;
     font-size: 5vh;
     background-color: black;
+    padding: 1vh;
     border-radius: 10vh;
     width: 5.3vh;
     height: 5.3vh;
@@ -182,4 +195,7 @@ nav{
 }
 .icon-watsapp:hover {
     transform: scale(1.1);
+}
+.icons{
+
 }

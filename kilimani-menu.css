@@ -1,5 +1,9 @@
 body{
     margin: 0;
+    padding: 0;
+  overflow: hidden;
+
+
 }
 .image{
 background-image:url(images/kitisuru-menu.jpg);
@@ -36,19 +40,7 @@ height: 100vh;
     font-weight: lighter;
 
 }
-.navigation{
-background-color:black;
-border-radius: 5vh;
-padding: 3vh;
-width: 95vh;
-font-size: 1.9vh;
-position: absolute;
-margin-top: -10vh;
 
-}
-.navigation :hover{
-    color: gray;
-}
 .image-flex{
 display: flex;  
 width: 100%; 
@@ -56,16 +48,7 @@ position: relative;
 font-family: sans-serif;
 
 }
-.navigation a{
-    margin-left: 5vh;
-    text-decoration: none;
-    color: white;
-}
-#reservation{
-    background-color: gray;
-    border-radius: 5vh;
-    padding: 2vh;
-}
+
 .food-nav{
    margin-top: 2vh;
    margin-left: 130vh;
@@ -172,19 +155,130 @@ margin-top: 6vh;
     color: rgb(250, 243, 243);
     margin:0 5vh;
 }
-.icon-watsapp{
-    margin-left: 176vh;
-    font-size: 5vh;
-    margin-top: -16vh;
-    position: absolute;
+.dropupbtn {
+    font-size: 3vh;
     color: white;
-    background-color: black;
-    border-radius:10vh;
-    width: 5vh;
-    padding:1vh;
-    padding-left: 1.8vh;
-
+    cursor: pointer;
+    color-scheme: dark;
 }
-.icon-watsapp:hover{
+.drop-up {
+    position: relative;
+    display: inline-block;
+}
+.dropup-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 5vh;
+  padding-left: 0;
+  width: 20vh;
+    border-radius: 1vh;
+    /* top: 5vh; */
+    margin-top: -49vh;
+}
+.dropup-content a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding: 1vh;
+    display: block;
+}
+.dropup-content a:hover {
+    background-color: gray;
+}
+.drop-up:hover .dropup-content {
+    display: block;
+}
+.drop-up:hover .dropupbtn {
+    transform: scale(1.1);
+}
+#time-icon {
+    width: 3vh;
+    height: 3vh;
+    color: white;
+    cursor: pointer;
+    color-scheme: dark;
+}
+.history-btn {
+    position: relative;
+    display: inline-block;
+}
+.history-content {
+    display:none;
+    position: absolute;
+    margin-top: -41vh;
+   min-width: 20vh;
+   z-index: 100;
+    background-color: white;
+    padding: 1vh;
+    border-radius: 1vh;
+    color:black;
+}
+
+.history-btn:hover #time-icon {
+    transform: scale(1.1);
+}
+.history-btn:hover .history-content {
+    display: block;
+}
+nav{
+    position: absolute;
+    margin-top: -12vh;
+    margin-left: 50vh;
+
+    width: 50%;
+    border-radius: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 4vh;
+    z-index: 100;
+    background-color: black;
+}
+.drop-up, .history-btn {
+    position: relative;
+    margin-right: 2vh;
+}
+.navigation {
+    display: flex;
+    gap: 4vh;
+}
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 2vh;
+    padding-top: 1vh;
+}
+.navigation a:hover {
+    color: gray;
+}
+#reservation {
+    background-color: gray;
+    border-radius: 5vh;
+    padding: 1vh 2vh;
+}
+#reservation:hover{
+    color: black;
+}
+.icon-watsapp {
+    position: absolute;
+    margin-top: -12vh;
+    right: 4vh;
+    font-size: 5vh;
+    background-color: black;
+    padding: 1vh;
+    border-radius: 10vh;
+    width: 5.3vh;
+    height: 5.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-watsapp a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon-watsapp:hover {
     transform: scale(1.1);
 }
